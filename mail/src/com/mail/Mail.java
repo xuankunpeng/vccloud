@@ -31,8 +31,7 @@ public class Mail {
 			transport.close();
 			System.out.println("sent suc");
 		} catch (Exception e) {
-			System.out.println(e.toString());
-			System.out.println("sent fail");
+			
 		}
 	}
 }
