@@ -1,4 +1,4 @@
-package com.mail;
+﻿package com.mail;
 
 import java.util.Properties;
 import javax.mail.*;
@@ -19,7 +19,7 @@ public class Mail {
 			Address addressFrom = new InternetAddress(
 					PopupAuthenticator.mailuser + "@qq.com", "烂帽子！");
 			Address addressTo = new InternetAddress("xuankunp@163.com", "LUO");
-			message.setText("哈哈！烂帽子！");
+			message.setText(！");
 			message.setSubject("Test sent Mail by javaMail");
 			message.setFrom(addressFrom);
 			message.addRecipient(Message.RecipientType.TO, addressTo);
